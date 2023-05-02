@@ -1,4 +1,4 @@
-# Portafolio Adaptable (Responsive) con Bootstrap 5
+# Portafolio 
 
 El propósito de esta página web es mostrar mi portafolio. Incluye una descripción breve sobre mi, trayectoria, voluntariado, proyectos, referencias y formas de contactarme. 
 
