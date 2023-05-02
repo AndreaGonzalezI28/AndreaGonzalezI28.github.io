@@ -15,6 +15,10 @@ Primera parte de la página web:
 
 Sobre mi
 
-![Primera parte de la página web](imagenes/readme/Parte2.png)
+![Sobremi](imagenes/readme/Parte2.png)
 
+Voluntariado
 
+![Voluntariado](imagenes/readme/Parte3.png)
+
+Lo que se presenta, es parte de lo que viene en el portafoio.
