@@ -13,4 +13,8 @@ Primera parte de la página web:
 
 ![Primera parte de la página web](imagenes/readme/Parte1.png)
 
+Sobre mi
+
+![Primera parte de la página web](imagenes/readme/Parte2.png)
+
 
