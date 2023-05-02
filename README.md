@@ -15,7 +15,7 @@ Primera parte de la página web:
 
 Sobre mi
 
-![Sobremi](imagenes/readme/Parte2.png)
+![Sobre mi](imagenes/readme/Parte2.png)
 
 Voluntariado
 
