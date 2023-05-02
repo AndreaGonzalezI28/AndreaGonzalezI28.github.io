@@ -1,0 +1,544 @@
+/* Barra de navegacion */
+.navbar-toggler{
+  background-color: #dce0e6;
+}
+.navbar {
+  padding: 2rem;
+  background-color: #2f3559;
+  height: 100px;
+  font-style: oblique;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2f3559;  
+  opacity: 0.8;
+}
+
+.Typewriter__wrapper{
+  color: #9a5071;
+  font-style: normal;
+}
+.navbar-brand img{
+  width: 80px;
+  height: 60px;
+}
+.Titulo1{
+  flex: auto;
+  text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #e7ddd3;
+}
+
+.nav-item{
+  background-color: #e7ddd3;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.nav-link{
+  color:#29251c 
+}
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #9a5071;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: #f7f799;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-descripcion {
+  font-size: 1.5rem;
+  color: rgb(83, 29, 29);
+  text-align: center;
+}
+
+.seccion-des {
+  font-size: 1.5rem;
+  color: wheat;
+  text-align: center;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/*Sección Hero*/
+
+.hero {
+  background-color: #eeccbb;
+  min-height: 450px;
+  text-align: center;
+  /*text-align: justify;*/
+
+}
+
+.hero-principal {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+/*
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+*/
+
+.Nombre {
+  font-size:2rem;
+  margin:auto;
+}
+
+.hero-imagen-desarrollador {
+  width: 250px;
+  margin: 20px;
+  
+}
+.hero-inferior{
+  margin: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+  padding: 10px;
+}
+
+/*
+padding: 40px 40px 60px 40px;
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}*/
+
+.sobre-mi .columna {
+  font-size: 15pt;
+  padding: 2.5rem;
+  border: 2px solid #8080804d;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+  width: 410px;
+  height: 510px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+.Fciencias {
+  width: 100%;
+}
+
+.Tecnolochica {
+  width: 60%;
+}
+
+.experiencia-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+  
+
+/* Voluntariado */
+
+
+.Voluntariado {
+  padding: 20px;
+}
+
+.actividades .carousel {
+  max-width: 400px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actividades-imagen {
+  height: 300px;
+  width: 350px;
+  margin: 10px 10px 20px 10px;
+  border-radius: 20px;
+  
+}
+
+.actividades-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.actividades-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.actividades-info p {
+  margin-bottom: 0;
+  font-size: 1.3rem;
+}
+
+.actividades-footer .cliente {
+  font-size: 1.6rem;
+}
+
+.actividades-info .cargo {
+  font-size: 1rem;
+  color: #656060;
+}
+
+
+/* Proyectos */
+
+.proyectos-recientes {
+  padding: 0px;
+  
+}
+
+.titulo-proyectos{
+  color: wheat;
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+  margin: auto;
+  text-align: center;
+}
+
+.proyectos-recientes img {
+  width: 100%;
+  padding: 1px;
+  border-radius: 50px;
+  display: block;
+  transition: all 0.2s ease;
+  background-color: wheat;
+}
+
+.proyectos-recientes .row{
+  justify-content: space-evenly;
+}
+
+
+.proyectos-contenedor {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* Otros proyectos */
+
+.articulos {
+  min-height: 300px;
+  padding: 30px;
+}
+
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articulos .card-header {
+  font-weight: bold;
+}
+
+/* Testimonios */
+
+.testimonios {
+  padding: 40px 40px 80px 40px;
+  background-color: #dce0e6;
+}
+
+.testimonios .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonio-imagen {
+  width: 280px;
+  height: 280px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio-info p {
+  margin-bottom: 0;
+}
+
+.testimonio-footer .cliente {
+  font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: #87b091;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
+
+/*  background-color: #dce0e6;*/
