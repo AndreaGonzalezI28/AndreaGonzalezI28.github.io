@@ -9,3 +9,8 @@ Esta página web fue creada con:
 * JavaScript 
 * Bootstrap 5
 
+Primera parte de la página web:
+
+![Primera parte de la página web](imagenes/readme/Parte1.png)
+
+
